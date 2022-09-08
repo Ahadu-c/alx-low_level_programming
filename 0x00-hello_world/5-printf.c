@@ -1,8 +1,11 @@
-#include <studio.h>
+#include <stdio.h>
+
 /**
- * main -entry point
+ * main -print the string in the put function
  *
- * Return: 0 Always 0 (Sucesss)
+ * Dscription: using the main function
+ * this program prints ""
+ * Return:0
  */
 int main(void)
 {
