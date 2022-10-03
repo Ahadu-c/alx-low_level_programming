@@ -8,9 +8,9 @@
  * Return: NULL if size is zero if it fails;
  * pointer to array if everything is normal.
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
-	chr *array;
+	char *array;
 	unsigned int index;
 
 	if (size == 0)
