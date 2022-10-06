@@ -29,8 +29,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	num = n;
 
 	if (s1 == NULL) /*account for NULL strings*/
-
-		s1 = "";
+	s1 = "";
+	s1 = "";
 	if (s2 == NULL)
 		s2 = "";
 	if (num < 0) /* account for  negative n bytes*/
